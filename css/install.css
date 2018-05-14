@@ -1,0 +1,138 @@
+	background-color: #1879B1;
+}
+h1 ,h2, h3, p, a{
+	font-family: 'Montserrat';
+	color: white;
+}
+h2 {
+	font-weight: bold;
+	font-size: 36px;
+}
+p{
+	opacity: 0.8;
+	font-size: 18px;
+}
+
+#javiera.callout{
+ 
+ background-color: #1879B1;
+ position: relative;
+ top: 50%;
+ transform: perspective(1px) translateY(-50%);
+ border-width: 0px;
+   
+  
+}
+
+.tabs-content{
+	background-color: #1879B1;
+	border-width: 0px;
+
+}
+
+#btn1{
+	border:0px;
+	border-radius: 15px;
+	background-image:url(../assets/Icon10.png);
+	background-repeat: no-repeat; 
+}
+#btn2{
+	border:0px;
+	border-radius: 15px;
+	background-image:url(../assets/Icon9.png);
+	background-repeat: no-repeat; 
+}
+#btn3{
+	border:0px;
+	border-radius: 15px;
+	background-image:url(../assets/Icon-76Qu.png);
+	background-repeat: no-repeat; 
+
+}
+#btn4{
+	border:0px;
+	border-radius: 15px;
+	background-image:url(../assets/Icon-76I.png);
+	background-repeat: no-repeat; 
+}
+
+
+button{
+	opacity: 1.0;
+	width: 76px;
+	height: 76px;
+	font-weight: regular;
+	font-size: 14px;
+}
+button:hover{
+	opacity: 1.0;
+}
+
+#menu-container .is-dropdown-submenu-parent > a:after {
+  border-color: white rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)!important; 
+}
+
+
+#submenu-container {
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #7FC4E9;
+	border: 0px;
+
+}
+#menu-container li a{
+	font-weight: bold;
+	font-size: 36px;
+	background-color:  #1879B1;
+	color: white;
+	border: 0px;
+}
+#menu-container li a:hover{
+	background-color:  #7FC4E9;
+	
+}
+.callout{
+ 	background-color: #1879B1;
+ 	border-width: 0px;
+   
+  
+}
+
+#lineup-tabs{
+	background-color:#398BBB ;
+	color: white;
+	border: 0px;
+	border-radius: 40px;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    background: #075E92;  
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected='false'] {
+    background: #398BBB;
+  
+}
+#lineup-tabs li a{
+	font-size: 24px;
+	color: white;
+}
+a#ios10-label {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 780px){ 
+	#submenu-container {
+	font-size: 16px;
+	}
+	#menu-container li a{
+	font-size: 16px;
+	}
+	p {
+    font-size: 16;
+	}
+}
+
+
